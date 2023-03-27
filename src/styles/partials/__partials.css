@@ -1,0 +1,22 @@
+/* Importing Fonts */
+/*
+    Change the imports according to your needs.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,400&family=Roboto:ital@0;1&display=swap");
+
+:root {
+  /*
+    Change the variable names according to your needs.
+  */
+
+  /* Colors Schemes */
+  --primary: #181823;
+  --secondary: #0e8388;
+  --white: #e9f8f9;
+  --glow: #64dfdf;
+
+  /* Font Schemes */
+  --font-poppins: "Poppins";
+  --font-roboto: "Roboto";
+  --font-montserrat: "Montserrat";
+}

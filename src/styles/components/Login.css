@@ -1,0 +1,26 @@
+.login-page-container {
+  overflow-y: hidden;
+  height: 100vh;
+  display: flex;
+}
+
+.login-page-container > .right {
+  width: 30%;
+  height: 100%;
+}
+
+.login-page-container > .left {
+  background: var(--primary);
+  width: 70%;
+  height: 100%;
+  padding: 3em;
+  padding-top: 5em;
+}
+
+.login-page-container > .left > div > p {
+  margin: 10px 0px;
+}
+
+.login-page-container > .left > div > p > i {
+  color: var(--secondary);
+}

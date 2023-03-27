@@ -1,0 +1,41 @@
+.home-container {
+  background: #f2f2f2;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-container-landing-page {
+  padding: 0px 3em;
+  padding-top: 3em;
+  background: var(--primary);
+  min-height: 90vh;
+}
+
+.intro-text {
+  width: 40%;
+  color: var(--white);
+  font-weight: 300;
+}
+
+.header-text {
+  width: 80%;
+  margin: 1em 0px;
+}
+
+.header-text > i {
+  color: var(--glow);
+  font-weight: 600;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.signup-button {
+  width: 150px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--white);
+}
+.signup-button > i {
+  color: var(--secondary);
+  font-size: 200;
+  cursor: pointer;
+}

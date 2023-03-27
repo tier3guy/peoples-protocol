@@ -1,0 +1,73 @@
+/* Importing Partials CSS */
+@import url("./partials/__partials.css");
+
+/* Importing Components CSS */
+@import url("./components/Home.css");
+@import url("./components/Error.css");
+@import url("./components/Login.css");
+@import url("./components/Navbar.css");
+
+/* Overriding Global CSS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  color: var(--white);
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+image,
+img {
+  object-fit: cover;
+}
+
+/* Custom Classes */
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify-arround {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.primary-button {
+  padding: 5px 15px;
+  background: var(--secondary);
+}
+
+.primary-button > p {
+  color: var(--white);
+  font-size: 1.1em;
+}
