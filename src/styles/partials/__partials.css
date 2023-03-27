@@ -14,6 +14,9 @@
   --secondary: #0e8388;
   --white: #e9f8f9;
   --glow: #64dfdf;
+  --danger: #f35588;
+  --warning: #ebb02d;
+  --gray: #9e9e9ea7;
 
   /* Font Schemes */
   --font-poppins: "Poppins";

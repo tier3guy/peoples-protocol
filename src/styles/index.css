@@ -7,6 +7,9 @@
 @import url("./components/Login.css");
 @import url("./components/Navbar.css");
 
+/* Importing Animation CSS */
+@import url("./animations/loader.css");
+
 /* Overriding Global CSS */
 
 * {
@@ -69,5 +72,5 @@ img {
 
 .primary-button > p {
   color: var(--white);
-  font-size: 1.1em;
+  font-size: 1em;
 }
